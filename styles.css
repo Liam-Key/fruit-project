@@ -1,0 +1,52 @@
+body {
+  background-color: #ebebd3;
+}
+
+#gen-card {
+  width: 800px;
+  height: 500px;
+  background-color: #73bfb7;
+  border-radius: 5px;
+}
+
+body h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+}
+
+#wrapper,
+#gen-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#output {
+  width: 780px;
+  height: 90px;
+  border-radius: 5px;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button {
+  width: 200px;
+  height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebebd3;
+  border-radius: 4px;
+  border: none;
+  font-style: italic;
+}
+
+#button:hover {
+  opacity: 90%;
+}
+
+#button:active {
+  opacity: 90%;
+  transform: translateY(2px);
+}
